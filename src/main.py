@@ -58,7 +58,7 @@ class MemorablePassword(PasswordGenerator):
       self.caps = caps
       self.seperator=seperator
       self.vocabulary = vocabulary
-      self.words_count=words_count
+      self.words_count=words_count 
       
       
     def generate(self):
